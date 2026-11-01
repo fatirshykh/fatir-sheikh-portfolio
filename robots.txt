@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://portfoliofatir.netlify.app/sitemap.xml
+Sitemap: https://fatirsheikhportfolio.vercel.app/sitemap.xml
