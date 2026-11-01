@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101211" />
+    <title>FDS Manager | Case Study by Fatir Sheikh</title>
+    <meta
+      name="description"
+      content="A practical management workspace for students, payments, income, fees and day-to-day records. Read about the challenge, approach, technology and current state."
+    />
+    <meta name="author" content="Fatir Sheikh" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link
+      rel="canonical"
+      href="https://portfoliofatir.netlify.app/projects/fds-manager.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Fatir Sheikh | Software Engineering"
+    />
+    <meta
+      property="og:title"
+      content="FDS Manager | Case Study by Fatir Sheikh"
+    />
+    <meta
+      property="og:description"
+      content="A practical management workspace for students, payments, income, fees and day-to-day records. Read about the challenge, approach, technology and current state."
+    />
+    <meta
+      property="og:url"
+      content="https://portfoliofatir.netlify.app/projects/fds-manager.html"
+    />
+    <meta
+      property="og:image"
+      content="https://portfoliofatir.netlify.app/assets/img/share-card.png"
+    />
+    <meta
+      property="og:image:alt"
+      content="Fatir Sheikh — independent software engineering portfolio"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="FDS Manager | Case Study by Fatir Sheikh"
+    />
+    <meta
+      name="twitter:description"
+      content="A practical management workspace for students, payments, income, fees and day-to-day records. Read about the challenge, approach, technology and current state."
+    />
+    <meta
+      name="twitter:image"
+      content="https://portfoliofatir.netlify.app/assets/img/share-card.png"
+    />
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://portfoliofatir.netlify.app/#fatir",
+            "name": "Fatir Sheikh",
+            "url": "https://portfoliofatir.netlify.app/",
+            "email": "fatirahmed946@gmail.com",
+            "jobTitle": "Software Engineer and AI Automation Developer",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Fatir Dev Studio",
+              "url": "https://fatirdevstudio.netlify.app/"
+            },
+            "knowsAbout": [
+              "Software engineering",
+              "Full-stack development",
+              "AI automation",
+              "Python",
+              "Flask",
+              "SQL",
+              "JavaScript"
+            ],
+            "sameAs": ["https://github.com/fatirshykh"]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://portfoliofatir.netlify.app/#website",
+            "url": "https://portfoliofatir.netlify.app/",
+            "name": "Fatir Sheikh \u2014 Software Engineer",
+            "inLanguage": "en"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://portfoliofatir.netlify.app/projects/fds-manager.html#page",
+            "url": "https://portfoliofatir.netlify.app/projects/fds-manager.html",
+            "name": "FDS Manager | Case Study by Fatir Sheikh",
+            "isPartOf": {
+              "@id": "https://portfoliofatir.netlify.app/#website"
+            },
+            "about": { "@id": "https://portfoliofatir.netlify.app/#fatir" }
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "FDS Manager | Case Study by Fatir Sheikh",
+            "url": "https://portfoliofatir.netlify.app/projects/fds-manager.html",
+            "creator": { "@id": "https://portfoliofatir.netlify.app/#fatir" }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="progress" data-progress aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="container nav-inner">
+        <a
+          href="../index.html#top"
+          class="signature"
+          aria-label="Fatir Sheikh, home"
+          >Fatir Sheikh<span>✦</span></a
+        >
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="../index.html#work">Selected work</a
+          ><a href="../index.html#about">About</a
+          ><a href="../index.html#expertise">Expertise</a
+          ><a href="../index.html#journey">Experience</a>
+        </nav>
+        <div class="nav-action">
+          <a href="../index.html#contact" class="nav-contact"
+            >Let's collaborate <span aria-hidden="true">↗</span></a
+          ><button
+            class="menu-toggle"
+            aria-label="Open navigation"
+            aria-expanded="false"
+            aria-controls="mobileLinks"
+            data-menu-toggle
+          >
+            <svg
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M1 7h19M1 14h19"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <nav
+        class="mobile-links"
+        id="mobileLinks"
+        data-mobile-links
+        aria-label="Mobile navigation"
+      >
+        <a href="../index.html#work">Selected work</a
+        ><a href="../index.html#about">About</a
+        ><a href="../index.html#expertise">Expertise</a
+        ><a href="../index.html#journey">Experience</a
+        ><a href="../index.html#contact">Contact</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="detail-hero" id="top">
+        <div class="container">
+          <div class="breadcrumbs mono">
+            <a href="../index.html#work">← ALL WORK</a><span>/</span
+            ><span>CASE STUDY 05</span>
+          </div>
+          <div class="detail-overline mono">
+            <span>Management platforms</span><span>—</span
+            ><span>Internal management application</span>
+          </div>
+          <h1>FDS Manager<em>.</em></h1>
+          <p class="detail-lede">
+            Everyday operations, accounted for. A practical management workspace
+            for students, payments, income, fees and day-to-day records.
+          </p>
+        </div>
+      </section>
+      <section class="case-body">
+        <div class="container case-columns">
+          <aside class="case-sidebar" aria-label="Project facts">
+            <div>
+              <span class="mono">PROJECT</span><strong>FDS Manager</strong>
+            </div>
+            <div>
+              <span class="mono">CATEGORY</span
+              ><strong>Management platforms</strong>
+            </div>
+            <div>
+              <span class="mono">STAGE</span
+              ><strong>Functional web application</strong>
+            </div>
+            <div>
+              <span class="mono">STACK</span
+              ><strong>HTML · CSS · JavaScript · Web hosting</strong>
+            </div>
+            <div>
+              <span class="mono">MY INVOLVEMENT</span
+              ><strong>Frontend system design and software development</strong>
+            </div>
+          </aside>
+          <div class="case-content">
+            <h2>The challenge.</h2>
+            <p>
+              Routine administrative work is often separated across manual logs,
+              fee trackers and disconnected records.
+            </p>
+            <h3>What I worked on</h3>
+            <p>
+              FDS Manager organizes common administrative workflows into one
+              application with filters and management views.
+            </p>
+            <div class="case-quote">
+              “Good software is measured by what it helps people do.”
+            </div>
+            <h3>Core workflows</h3>
+            <ul>
+              <li>Payment and fee management flows</li>
+              <li>Student and attendance operations</li>
+              <li>Income and expense tracking views</li>
+              <li>Filtering by status and other record properties</li>
+            </ul>
+            <h3>Where it stands</h3>
+            <p>
+              Functional browser-based application; persistent multi-device
+              storage must be independently confirmed before it is advertised.
+            </p>
+            <p>
+              <strong>Visual evidence:</strong> No generated UI images are used
+              here. Actual product screenshots can be added after reviewing
+              client privacy and capturing authentic screens.
+            </p>
+            <div class="case-links">
+              <a href="../index.html#work">← Back to selected work</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="case-next">
+        <a class="container" href="lms.html"
+          ><span
+            ><span class="mono">UP NEXT / 06</span><br /><strong
+              >FDS LMS</strong
+            ></span
+          ><span aria-hidden="true" style="font-size: 48px; color: var(--gold)"
+            >↗</span
+          ></a
+        >
+      </section>
+    
+<section class="github-section" id="github" aria-labelledby="githubTitle">
+        <div class="container">
+          <div class="section-topline">
+            <span class="mono">GITHUB / PUBLIC WORK</span
+            ><span class="mono">SOURCE & ACTIVITY</span>
+          </div>
+          <div class="github-top">
+            <div>
+              <span class="mono">OPEN SOURCE AND EXPERIMENTS</span>
+              <h2 id="githubTitle">The work<br /><em>behind the work.</em></h2>
+              <p>
+                Explore public repositories and ongoing development. Client
+                source code is private unless published with permission.
+              </p>
+            </div>
+            <a
+              class="github-profile"
+              href="https://github.com/fatirshykh"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Visit @fatirshykh ↗</a
+            >
+          </div>
+          <div class="github-numbers">
+            <div>
+              <span>PUBLIC REPOSITORIES</span
+              ><strong data-github-count>View profile</strong>
+            </div>
+            <div><span>WORK</span><strong>Software & websites</strong></div>
+            <div>
+              <span>PRIVATE SOURCE</span><strong>Access controlled</strong>
+            </div>
+          </div>
+          <div class="github-list-heading">
+            <h3>Recently updated public projects</h3>
+            <small data-github-status>Loading when connected</small>
+          </div>
+          <div class="github-list" data-github-list>
+            <a
+              href="https://github.com/fatirshykh/SIMS"
+              target="_blank"
+              rel="noopener noreferrer"
+              >SIMS — inventory management ↗</a
+            >
+            <a
+              href="https://github.com/fatirshykh/SFEWS"
+              target="_blank"
+              rel="noopener noreferrer"
+              >SFEWS — flood warning system ↗</a
+            >
+          </div>
+        </div>
+      </section>
+<section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="section-topline">
+            <span class="mono">08 / NEW CONVERSATIONS</span
+            ><span class="mono">EXCELLENCE IS COLLABORATIVE</span>
+          </div>
+          <div class="contact-heading" data-reveal>
+            <h2 id="contact-title">Let's make<br /><em>it matter.</em></h2>
+          </div>
+          <!-- FATIR_V4_STABLE -->
+<div class="contact-workspace">
+  <div class="contact-copy">
+    <span class="mono">PROJECT INQUIRIES</span>
+    <h3>Tell me what you need built.</h3>
+    <p>Share a few details. Choose email or WhatsApp and review the message before sending.</p>
+    <a href="https://wa.me/923348122659" target="_blank" rel="noopener noreferrer">WhatsApp directly ↗</a>
+  </div>
+
+  <form id="fatirContactForm" class="contact-form" method="POST" action="https://api.web3forms.com/submit"><input type="hidden" name="access_key" value="bf23436b-3e0a-4acf-b1ee-271481d043df"><input type="hidden" name="subject" value="New Fatir Sheikh Portfolio Enquiry"><input type="hidden" name="from_name" value="Fatir Sheikh Portfolio"><input type="checkbox" name="botcheck" style="display:none" tabindex="-1" aria-hidden="true">
+    <div class="contact-two">
+      <label>Your name
+        <input name="name" id="fatirName" required maxlength="90" autocomplete="name">
+      </label>
+      <label>Email
+        <input name="email" id="fatirEmail" type="email" required maxlength="130" autocomplete="email">
+      </label>
+    </div>
+
+    <label>Project type
+      <select name="project_type" id="fatirType">
+        <option>Custom software</option>
+        <option>AI / n8n automation</option>
+        <option>Website development</option>
+        <option>Other enquiry</option>
+      </select>
+    </label>
+
+    <label>Project details
+      <textarea name="message" id="fatirMessage" rows="4" minlength="15" maxlength="1800" required placeholder="What would you like to build or automate?"></textarea>
+    </label>
+
+    <div class="contact-actions">
+      <button type="submit">Send enquiry ↗</button>
+      <button id="fatirWhatsApp" type="button">Open WhatsApp ↗</button>
+    </div>
+
+    <p class="contact-note" id="fatirFormStatus" role="status">
+      Send the form directly or choose WhatsApp. A confirmation will appear here.
+    </p>
+  </form>
+</div>
+          <div class="contact-links">
+            <a href="mailto:fatirahmed946@gmail.com"
+              >Email · fatirahmed946@gmail.com</a
+            ><a
+              href="https://wa.me/923348122659"
+              target="_blank"
+              rel="noopener noreferrer"
+              >WhatsApp ↗</a
+            ><a
+              href="https://github.com/fatirshykh"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub ↗</a
+            ><a
+              href="https://fatirdevstudio.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Fatir Dev Studio ↗</a
+            >
+          </div>
+        </div>
+      </section>
+</main>
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a class="signature" href="../index.html#top"
+          >Fatir Sheikh<span>✦</span></a
+        ><span class="mono"
+          >© <span data-year>2026</span> FATIR SHEIKH. ALL RIGHTS
+          RESERVED.</span
+        ><a class="mono" href="#top">BACK TO TOP ↗</a>
+      </div>
+    </footer>
+    <script defer src="../assets/js/main.js"></script>
+  
+<div class="fatir-chat">
+  <button class="chat-toggle" id="fatirChatToggle" type="button" aria-controls="fatirChatPanel" aria-expanded="false">
+    Ask about my work ↗
+  </button>
+
+  <section class="chat-panel" id="fatirChatPanel" aria-label="Portfolio guide" hidden>
+    <div class="chat-head">
+      <div>
+        <strong>Portfolio guide</strong>
+        <small>Automated answers · not live chat</small>
+      </div>
+      <button id="fatirChatClose" type="button" aria-label="Close chat">×</button>
+    </div>
+
+    <div class="chat-log" id="fatirChatLog" role="log" aria-live="polite"></div>
+
+    <div class="chat-quick">
+      <button type="button" data-question="software">Software</button>
+      <button type="button" data-question="skills">Skills</button>
+      <button type="button" data-question="contact">Contact</button>
+    </div>
+
+    <form class="chat-send" id="fatirChatForm">
+      <input id="fatirChatInput" aria-label="Your question" required maxlength="250" placeholder="Ask about projects or skills">
+      <button type="submit" aria-label="Send question">↗</button>
+    </form>
+
+    <div class="chat-links">
+      <a href="https://wa.me/923348122659" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a href="mailto:fatirahmed946@gmail.com">Email</a>
+    </div>
+  </section>
+</div>
+<script defer src="../assets/js/portfolio-v5.js"></script></body>
+</html>
